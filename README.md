@@ -2,6 +2,7 @@
 All STM32 Demo Files
 
 Description of Demo FIles:
+EEPROM_TEST: Basic EEPROM Test
 ETHERNET_TEST: Basic UDP Functions
 ETHERNET_TEST_1: Telnet Chat Server
 ETHERNET_TEST_2: NTP TEST
@@ -15,3 +16,4 @@ GUISlice_TEST_3: Progress Bar
 GUISlice_TEST_4: LED Switch
 GUISlice_TEST_5: Checkbox
 GUISlice_TEST_6: NumericInput 1
+GUISlice_TEST_7: AlphanumericInput 1
