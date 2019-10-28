@@ -1,2 +1,2 @@
 # STM32-DEMOS
-All STM32 DenoFiles
+All STM32 Demo Files
