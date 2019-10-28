@@ -20,6 +20,7 @@
 #include "GUIslice.h"
 #include "GUIslice_drv.h"
 #include <Arduino.h>
+String OUT ;
 // Include any extended elements
 //<Includes !Start!>
 // Include extended elements
@@ -153,8 +154,10 @@ bool CbKeypad(void* pvGui, void *pvElemRef, int16_t nState, void* pvData)
       case E_ELEM_NUMINPUT1:
         //TODO- Update input handling code
         // using gslc_ElemXKeyPadDataValGet(pGui, pvData)
+        OUT = gslc_ElemXKeyPadDataValGet(pGui, pvData);
         gslc_ElemSetTxtStr(pGui, keypad1, gslc_ElemXKeyPadDataValGet(pGui, pvData));
         gslc_PopupHide(&m_gui);
+        Serial.println(OUT);
       break;
 //<Keypad Enums !End!>
       default:
@@ -274,5 +277,4 @@ void loop()
   // Periodically call GUIslice update function
   // ------------------------------------------------
   gslc_Update(&m_gui);
-    
 }
