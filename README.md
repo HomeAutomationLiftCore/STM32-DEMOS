@@ -17,3 +17,7 @@ GUISlice_TEST_4: LED Switch
 GUISlice_TEST_5: Checkbox
 GUISlice_TEST_6: NumericInput 1
 GUISlice_TEST_7: AlphanumericInput 1
+GUISlice_TEST_8: Spinner
+GUISlice_TEST_9: ListBox
+GUISlice_TEST_10 : RingGauge
+GUISlice_TEST_11 : RadialGauge
