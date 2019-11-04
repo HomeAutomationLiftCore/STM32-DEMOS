@@ -23,3 +23,7 @@ GUISlice_TEST_8: Spinner
 GUISlice_TEST_9: ListBox
 GUISlice_TEST_10 : RingGauge
 GUISlice_TEST_11 : RadialGauge
+DS3231_TEST_1    : Basic Clock
+DS3231_TEST_2    : Clock Display
+DHT11_TEST_1     : Basic DHT11
+DHT11_TEST_2     : DHT11 Display
